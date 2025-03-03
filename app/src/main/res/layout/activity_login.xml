@@ -117,6 +117,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/go_to_reg_activity"
             android:text="Sign up"
+            android:textColor="@color/blue"
             android:layout_marginStart="7dp"/>
 
     </LinearLayout>

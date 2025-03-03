@@ -22,11 +22,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         binding.loginBtn.setOnClickListener{
             val email = binding.emailEt.text.toString()
             val password = binding.passEt.text.toString()
-
             if (email.isEmpty() || password.isEmpty()){
                 Toast.makeText(this,"Fields cannot be empty",Toast.LENGTH_SHORT).show()
             }else{
@@ -37,9 +35,9 @@ class LoginActivity : AppCompatActivity() {
                         }
                     }
             }
-            binding.goToRegActivity.setOnClickListener{
-                startActivity(Intent(this,RegisterActivity::class.java))
-            }
+        }
+        binding.goToRegActivity.setOnClickListener{
+            startActivity(Intent(this,RegisterActivity::class.java))
         }
     }
 }
