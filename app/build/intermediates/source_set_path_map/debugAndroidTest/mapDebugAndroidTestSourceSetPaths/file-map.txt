@@ -1,0 +1,6 @@
+com.example.androidmessenger.test.app-tracing-1.2.0-0 C:\Users\Ivan\.gradle\caches\8.10.2\transforms\0c391614cfa7a6f5e03445107fb4d244\transformed\tracing-1.2.0\res
+com.example.androidmessenger.test.app-core-1.6.1-1 C:\Users\Ivan\.gradle\caches\8.10.2\transforms\7d3af3272a9cd9903e40db05d3830851\transformed\core-1.6.1\res
+com.example.androidmessenger.test.app-androidTest-2 E:\AndroidProjects\AndroidMessenger\app\build\generated\res\resValues\androidTest\debug
+com.example.androidmessenger.test.app-mergeDebugAndroidTestResources-3 E:\AndroidProjects\AndroidMessenger\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.androidmessenger.test.app-mergeDebugAndroidTestResources-4 E:\AndroidProjects\AndroidMessenger\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.androidmessenger.test.app-debugAndroidTest-5 E:\AndroidProjects\AndroidMessenger\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
