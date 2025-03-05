@@ -4005,6 +4005,7 @@ int string fingerprint_error_lockout 0x7f120051
 int string fingerprint_error_no_fingerprints 0x7f120052
 int string fingerprint_error_user_canceled 0x7f120053
 int string fingerprint_not_recognized 0x7f120054
+int string firebase_database_url 0x7f1200d1
 int string gcm_defaultSenderId 0x7f120055
 int string generic_error_no_device_credential 0x7f120056
 int string generic_error_no_keyguard 0x7f120057

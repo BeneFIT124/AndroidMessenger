@@ -25,5 +25,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, LoginActivity::class.java))
         }
 
+        binding.backBtn.setOnClickListener{
+            startActivity(Intent(this,LoginActivity::class.java))
+        }
     }
 }

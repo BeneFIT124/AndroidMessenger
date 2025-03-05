@@ -2,6 +2,7 @@
   "project_info": {
     "project_number": "974295642468",
     "project_id": "androidmessenger-9a2f2",
+    "firebase_url": "https://androidmessenger-9a2f2-default-rtdb.europe-west1.firebasedatabase.app",
     "storage_bucket": "androidmessenger-9a2f2.firebasestorage.app"
   },
   "client": [

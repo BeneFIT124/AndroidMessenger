@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="firebase_database_url" translatable="false">https://androidmessenger-9a2f2-default-rtdb.europe-west1.firebasedatabase.app</string>
     <string name="gcm_defaultSenderId" translatable="false">974295642468</string>
     <string name="google_api_key" translatable="false">AIzaSyAo_vqUW14zmtETCi9XnnDVgldWn2JAAI0</string>
     <string name="google_app_id" translatable="false">1:974295642468:android:01825fb767a03808874a71</string>
