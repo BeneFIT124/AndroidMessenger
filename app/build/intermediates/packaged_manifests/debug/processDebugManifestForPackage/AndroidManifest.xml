@@ -39,6 +39,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.AndroidMessenger" >
         <activity
+            android:name="com.example.androidmessenger.ChatActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.androidmessenger.RegisterActivity"
             android:exported="false" />
         <activity

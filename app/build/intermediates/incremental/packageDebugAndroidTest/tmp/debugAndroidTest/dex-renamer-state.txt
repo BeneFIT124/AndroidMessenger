@@ -1,4 +1,4 @@
-#Mon Mar 03 14:55:56 KRAT 2025
+#Thu Apr 10 17:15:50 KRAT 2025
 base.0=E\:\\AndroidProjects\\AndroidMessenger\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=E\:\\AndroidProjects\\AndroidMessenger\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=E\:\\AndroidProjects\\AndroidMessenger\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\7\\classes.dex
