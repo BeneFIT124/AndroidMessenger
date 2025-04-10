@@ -40,6 +40,7 @@ android {
 }
 
 dependencies {
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
     implementation("com.google.firebase:firebase-bom:33.10.0")
     implementation("com.google.firebase:firebase-analytics:22.3.0")
     implementation(libs.androidx.core.ktx)
@@ -55,5 +56,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("de.hdodenhof:circleimageview:3.1.0")
 }
 apply(plugin = "com.google.gms.google-services")

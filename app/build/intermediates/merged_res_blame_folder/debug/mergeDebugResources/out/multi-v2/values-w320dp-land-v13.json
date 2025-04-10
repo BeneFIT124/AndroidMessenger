@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androidmessenger.app-mergeDebugResources-43:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.example.androidmessenger.app-mergeDebugResources-45:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ivan\\.gradle\\caches\\8.10.2\\transforms\\0e06632372793c89ba43f212e8bf3a28\\transformed\\material-1.12.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",

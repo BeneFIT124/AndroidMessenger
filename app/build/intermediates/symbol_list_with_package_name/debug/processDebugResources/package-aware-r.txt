@@ -305,6 +305,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -1467,8 +1471,10 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_blue
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3036,6 +3042,10 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable back_arrow
+drawable baseline_account_circle_24
+drawable baseline_add_comment_24
+drawable baseline_arrow_back_ios_24
+drawable baseline_chat_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3098,6 +3108,7 @@ drawable ic_search_black_24
 drawable image1
 drawable image2
 drawable indeterminate_static
+drawable logout_24dp_1f1f1f_fill0_wght400_grad0_opsz24
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3120,6 +3131,9 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable message_et_shape
+drawable message_from_curr_user
+drawable message_shape
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3172,6 +3186,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pass_icon
+drawable send
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3279,6 +3294,7 @@ id below
 id bestChoice
 id blocking
 id bottom
+id bottom_nav
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3301,6 +3317,8 @@ id center_vertical
 id chain
 id chain2
 id chains
+id chats
+id chats_rv
 id checkbox
 id checked
 id chronometer
@@ -3394,11 +3412,13 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container
 id fragment_container_view_tag
 id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id go_to_reg_activity
 id gone
 id graph
@@ -3449,6 +3469,7 @@ id listMode
 id list_item
 id login_btn
 id login_title
+id logout_btn
 id m3_side_sheet
 id main
 id marquee
@@ -3477,6 +3498,10 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id message
+id message_date_tv
+id message_et
+id message_tv
+id messages_rv
 id middle
 id mini
 id month_grid
@@ -3520,6 +3545,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id new_chat
 id noScroll
 id noState
 id none
@@ -3565,6 +3591,9 @@ id pin
 id position
 id postLayout
 id pressed
+id profile
+id profile_image_view
+id profile_iv
 id progress_circular
 id progress_horizontal
 id radio
@@ -3601,6 +3630,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send_btn
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3694,8 +3724,10 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usernameTv
 id username_et
 id username_lin
+id users_rv
 id vertical
 id vertical_only
 id view_offset_helper
@@ -3832,6 +3864,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_chat
 layout activity_login
 layout activity_main
 layout activity_register
@@ -3854,6 +3887,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fingerprint_dialog_layout
+layout fragment_chats
+layout fragment_new_chat
+layout fragment_profile
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout m3_alert_dialog
@@ -3875,6 +3911,8 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout message_from_curr_user_rv_item
+layout message_rv_item
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -3913,10 +3951,12 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout person_item_rv
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -5292,6 +5332,7 @@ styleable Carousel carousel_alignment carousel_backwardTransition carousel_empty
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

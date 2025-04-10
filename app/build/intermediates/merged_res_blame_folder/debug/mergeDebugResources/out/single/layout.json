@@ -1,18 +1,62 @@
 [
     {
-        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-44:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-47:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-46:\\layout\\person_item_rv.xml",
+        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-49:\\layout\\person_item_rv.xml"
     },
     {
-        "merged": "com.example.androidmessenger.app-mergeDebugResources-44:/layout/activity_main.xml",
-        "source": "com.example.androidmessenger.app-main-47:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-46:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-49:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-44:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-47:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-46:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-49:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-44:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-47:\\layout\\activity_register.xml"
+        "merged": "com.example.androidmessenger.app-mergeDebugResources-46:/layout/activity_login.xml",
+        "source": "com.example.androidmessenger.app-main-49:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.androidmessenger.app-mergeDebugResources-46:/layout/fragment_new_chat.xml",
+        "source": "com.example.androidmessenger.app-main-49:/layout/fragment_new_chat.xml"
+    },
+    {
+        "merged": "com.example.androidmessenger.app-mergeDebugResources-46:/layout/activity_chat.xml",
+        "source": "com.example.androidmessenger.app-main-49:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-46:\\layout\\message_from_curr_user_rv_item.xml",
+        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-49:\\layout\\message_from_curr_user_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-46:\\layout\\message_rv_item.xml",
+        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-49:\\layout\\message_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.androidmessenger.app-mergeDebugResources-46:/layout/activity_register.xml",
+        "source": "com.example.androidmessenger.app-main-49:/layout/activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-46:\\layout\\fragment_chats.xml",
+        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-49:\\layout\\fragment_chats.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-46:\\layout\\fragment_new_chat.xml",
+        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-49:\\layout\\fragment_new_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-46:\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-49:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "com.example.androidmessenger.app-mergeDebugResources-46:/layout/fragment_chats.xml",
+        "source": "com.example.androidmessenger.app-main-49:/layout/fragment_chats.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-mergeDebugResources-46:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Ivan\\.gradle\\daemon\\8.10.2\\com.example.androidmessenger.app-main-49:\\layout\\activity_login.xml"
     }
 ]

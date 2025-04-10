@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androidmessenger.app-mergeDebugResources-43:/values-lv/values-lv.xml",
+            "outputFile": "com.example.androidmessenger.app-mergeDebugResources-45:/values-lv/values-lv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ivan\\.gradle\\caches\\8.10.2\\transforms\\c23bb0a7cca27cbcaa1a7e53eed542ea\\transformed\\play-services-base-18.5.0\\res\\values-lv\\values.xml",

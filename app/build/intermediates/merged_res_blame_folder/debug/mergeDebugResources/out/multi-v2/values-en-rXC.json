@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androidmessenger.app-mergeDebugResources-43:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.androidmessenger.app-mergeDebugResources-45:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ivan\\.gradle\\caches\\8.10.2\\transforms\\ddbf70643a78bc063f9f417ef65a87a6\\transformed\\credentials-1.5.0-rc01\\res\\values-en-rXC\\values-en-rXC.xml",

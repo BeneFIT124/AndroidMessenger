@@ -27,6 +27,7 @@ class RegisterActivity : AppCompatActivity() {
             val email = binding.emailEt.text.toString()
             val password = binding.passEt.text.toString()
             val username = binding.usernameEt.text.toString()
+            val chats = ""
             if (email.isEmpty()||password.isEmpty()||username.isEmpty()){
                 Toast.makeText(applicationContext,"Fields cannot be empty",Toast.LENGTH_SHORT).show()
             } else{
@@ -35,7 +36,8 @@ class RegisterActivity : AppCompatActivity() {
                         if (task.isSuccessful){
                             val userInfo = hashMapOf(
                                 "email" to email,
-                                "username" to username
+                                "username" to username,
+                                "chats" to chats
                             )
                             FirebaseDatabase.getInstance().reference.child("Users").child(FirebaseAuth.getInstance().currentUser!!.uid)
                                 .setValue(userInfo)

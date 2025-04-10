@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androidmessenger.app-mergeDebugResources-43:/values-th/values-th.xml",
+            "outputFile": "com.example.androidmessenger.app-mergeDebugResources-45:/values-th/values-th.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ivan\\.gradle\\caches\\8.10.2\\transforms\\05b02005d4ec782ccfd138f35b04308a\\transformed\\biometric-1.1.0\\res\\values-th\\values-th.xml",
