@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.databinding:viewbinding:8.8.0] C:\Users\Ivan\.gradle\caches\8.10.2\transforms\aa60e342ce4a63409b06a95c06d52ff5\transformed\viewbinding-8.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Ivan\.gradle\caches\8.10.2\transforms\0e06632372793c89ba43f212e8bf3a28\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\Ivan\.gradle\caches\8.10.2\transforms\c3d5b20a9b896c2acae4958364449642\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
@@ -121,8 +121,8 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.3.0] C:
 	android:name
 		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:7:5-39:19
-INJECTED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:7:5-39:19
+ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:7:5-40:19
+INJECTED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:7:5-40:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Ivan\.gradle\caches\8.10.2\transforms\0e06632372793c89ba43f212e8bf3a28\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Ivan\.gradle\caches\8.10.2\transforms\0e06632372793c89ba43f212e8bf3a28\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\Ivan\.gradle\caches\8.10.2\transforms\c3d5b20a9b896c2acae4958364449642\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
@@ -216,45 +216,47 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Ivan\.gradle\ca
 	android:dataExtractionRules
 		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:9:9-65
 activity#com.example.androidmessenger.ChatActivity
-ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:17:9-20:40
+	android:windowSoftInputMode
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:19:13-52
 	android:exported
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
 		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:18:13-41
 activity#com.example.androidmessenger.RegisterActivity
-ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:20:9-22:40
+ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:21:13-45
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:22:13-45
 activity#com.example.androidmessenger.LoginActivity
-ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:23:9-25:40
+ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:24:13-42
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:25:13-42
 activity#com.example.androidmessenger.MainActivity
-ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:26:9-34:20
+ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:27:9-35:20
 	android:exported
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:28:13-36
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:27:13-41
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:28:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:33:27-74
 meta-data#preloaded_fonts
-ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:36:9-38:57
+ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:37:9-39:57
 	android:resource
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:38:13-54
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:39:13-54
 	android:name
-		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:37:13-43
+		ADDED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml:38:13-43
 uses-sdk
 INJECTED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\AndroidProjects\AndroidMessenger\app\src\main\AndroidManifest.xml
